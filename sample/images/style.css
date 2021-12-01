@@ -1,0 +1,46 @@
+.cradbody{
+    border: 20x solid greenyellow; color: hotpink;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 2%;
+    text-align: center;
+
+
+}
+button{    
+    background-color: khaki;
+    padding: 3%;
+    margin: 2%;
+    color: yellow;
+    font-style: normal;
+
+}
+s{
+    color: brown; 
+
+}
+.card{
+    display: flex; 
+    flex-wrap: wrap; 
+}
+img{
+    border-radius: 15%; 
+    padding: 3%; 
+    
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .card{
+        display: flex;
+        flex-direction: wrap;
+    }
+    .cradbody{
+        width: 95%;
+        border: 3px solid black;
+        font-size: 30px;
+        background-color: skyblue;
+    }
+    button{
+        font-size: 30px;        
+    }
+}        
+
